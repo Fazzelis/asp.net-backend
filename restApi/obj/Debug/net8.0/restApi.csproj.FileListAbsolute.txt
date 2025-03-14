@@ -1,0 +1,289 @@
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\appsettings.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\restApi.staticwebassets.endpoints.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\restApi.exe
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\restApi.deps.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\restApi.runtimeconfig.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\restApi.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\restApi.pdb
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.csproj.AssemblyReference.cache
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.AssemblyInfoInputs.cache
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.AssemblyInfo.cs
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.csproj.CoreCompileInputs.cache
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\scopedcss\bundle\restApi.styles.css
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets\msbuild.restApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets\msbuild.restApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets\msbuild.build.restApi.props
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.restApi.props
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.restApi.props
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.csproj.Up2Date
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\refint\restApi.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.pdb
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\restApi.genruntimeconfig.cache
+C:\Fazzelis\Paraweb\Backend vscode\restApi\obj\Debug\net8.0\ref\restApi.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Humanizer.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Npgsql.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.CodeDom.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Text.Json.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\appsettings.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.staticwebassets.endpoints.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.exe
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.deps.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.runtimeconfig.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.pdb
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Humanizer.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Npgsql.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.CodeDom.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.Text.Json.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.csproj.AssemblyReference.cache
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.AssemblyInfoInputs.cache
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.AssemblyInfo.cs
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.csproj.CoreCompileInputs.cache
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.sourcelink.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\scopedcss\bundle\restApi.styles.css
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.restApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.restApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.build.restApi.props
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.restApi.props
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.restApi.props
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.csproj.Up2Date
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\refint\restApi.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.pdb
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.genruntimeconfig.cache
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\ref\restApi.dll
