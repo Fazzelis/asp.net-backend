@@ -1,6 +1,7 @@
 using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Identity;
 using restApi.db;
+using restApi.Dtos.User;
 using restApi.Models;
 
 namespace restApi.Services.Impl;
@@ -41,5 +42,19 @@ public class UserService : IUserService
             {"id", newUser.Id}
         };
         return response;
+    }
+
+    public Guid? LoginIn(UserLogin userLogin)
+    {
+        var db_user = _context.Users.FirstOrDefault(u => u.Email == userLogin.Email);
+        if (db_user == null)
+        {
+            return null;
+        }
+        if (db_user.Password != userLogin.Password)
+        {
+            return null;
+        }
+        return db_user.Id;
     }
 }

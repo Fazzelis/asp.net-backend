@@ -28,4 +28,15 @@ public class UserController : ControllerBase
             return Ok(user);
         }
     }
+
+    [HttpGet("login")]
+    public IActionResult LoginIn([FromQuery] UserLogin userLogin)
+    {
+        var userId = _userService.LoginIn(userLogin);
+        if (userId == null)
+        {
+            return Conflict("Conflict");
+        }
+        return Ok(userId);
+    }
 }
