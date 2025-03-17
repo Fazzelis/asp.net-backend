@@ -15,4 +15,12 @@ public static class UserMapper
             Role="user"
         };
     }
+
+    public static UserInfoDto ToUserInfoDto(this User user)
+    {
+        return new UserInfoDto{
+            Email=user.Email,
+            Name=user.Name
+        };
+    }
 }

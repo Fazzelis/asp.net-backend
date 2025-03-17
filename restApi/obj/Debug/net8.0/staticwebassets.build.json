@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "cAgfvUo1M9re92gcHCl2MQJzVWIWRsJq6wGsefwLpdU=",
+  "Hash": "NUyRnIi13t44xIKTb77FAgck4ADH+NK1WyBCiNN9JOs=",
   "Source": "restApi",
   "BasePath": "_content/restApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

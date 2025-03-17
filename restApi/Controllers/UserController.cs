@@ -32,11 +32,22 @@ public class UserController : ControllerBase
     [HttpGet("login")]
     public IActionResult LoginIn([FromQuery] UserLogin userLogin)
     {
-        var userId = _userService.LoginIn(userLogin);
+        var userId = _userService.LogIn(userLogin);
         if (userId == null)
         {
             return Conflict("Conflict");
         }
         return Ok(userId);
+    }
+
+    [HttpGet("login-with-jwt")]
+    public IActionResult LoginInWithJwt([FromHeader] string token)
+    {
+        var user = _userService.LogInWithJwt(token);
+        if (user == null)
+        {
+            return BadRequest("Jwt is not correct or token time out");
+        }
+        return Ok(UserMapper.ToUserInfoDto(user));
     }
 }

@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using restApi.AuthOptions;
 using restApi.db;
 using restApi.Services;
 using restApi.Services.Impl;
@@ -10,6 +13,22 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+
+        builder.Services.AddAuthentication();
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidIssuer = JwtOptions.ISSURE,
+                    ValidateIssuer = true,
+                    ValidAudience = JwtOptions.AUDINCE,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    IssuerSigningKey = JwtOptions.GetSymmetricSecurityKey(),
+                    ValidateIssuerSigningKey = true
+                };
+            });
 
         // Add services to the container.
 
@@ -33,6 +52,7 @@ public class Program
 
         app.UseHttpsRedirection();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
 

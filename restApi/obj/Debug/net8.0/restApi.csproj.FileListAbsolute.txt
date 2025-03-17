@@ -144,7 +144,6 @@ C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\System.Security.Cryp
 C:\Fazzelis\Paraweb\Backend vscode\restApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\appsettings.json
-C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.staticwebassets.endpoints.json
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.exe
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.deps.json
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\restApi.runtimeconfig.json
@@ -274,9 +273,7 @@ C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.sourcelink.
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\scopedcss\bundle\restApi.styles.css
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets.development.json
-C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.restApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.restApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.build.restApi.props
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.restApi.props
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.restApi.props
@@ -287,3 +284,10 @@ C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\refint\restApi.dll
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.pdb
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\restApi.genruntimeconfig.cache
 C:\Fazzelis\Paraweb\asp.net-backend\restApi\obj\Debug\net8.0\ref\restApi.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Fazzelis\Paraweb\asp.net-backend\restApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

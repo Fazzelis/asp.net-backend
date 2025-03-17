@@ -11,4 +11,5 @@ public class ApiDbContext : DbContext
     }
 
     public DbSet<User> Users { get; set; }
+    public DbSet<JwtToken> JwtTokens { get; set; }
 }

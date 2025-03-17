@@ -5,6 +5,7 @@ namespace restApi.Services;
 
 public interface IUserService
 {
-    public Dictionary<string, Guid>? CreateUser(User newUser);
-    public Guid? LoginIn(UserLogin userLogin);
+    public Dictionary<string, string>? CreateUser(User newUser);
+    public Guid? LogIn(UserLogin userLogin);
+    public User? LogInWithJwt(string token);
 }
