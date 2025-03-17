@@ -16,6 +16,19 @@ public class UserService : IUserService
     {
         _context = context;
     }
+
+    private string GenerateJwt(User user)
+    {
+        List<Claim> claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Name) };
+        var generatedJwt = new JwtSecurityToken(
+            issuer: JwtOptions.ISSURE,
+            audience: JwtOptions.AUDINCE,
+            claims: claims,
+            signingCredentials: new SigningCredentials(JwtOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256)
+        );
+        return new JwtSecurityTokenHandler().WriteToken(generatedJwt);
+    }
+
     public Dictionary<string, string>? CreateUser(User newUser)
     {
 
@@ -40,17 +53,7 @@ public class UserService : IUserService
         _context.Add(newUser);
         _context.SaveChanges();
 
-        var claims = new List<Claim> { new Claim(ClaimTypes.Name, newUser.Name) };
-
-        var jwtToken = new JwtSecurityToken(
-            issuer: JwtOptions.ISSURE,
-            audience: JwtOptions.AUDINCE,
-            claims: claims,
-            expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(30)),
-            signingCredentials: new SigningCredentials(JwtOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256)
-        );
-
-        string jwtTokenStr = new JwtSecurityTokenHandler().WriteToken(jwtToken);
+        string jwtTokenStr = GenerateJwt(newUser);
         JwtToken db_jwt = new JwtToken { Token = jwtTokenStr, UserId = newUser.Id, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
         _context.Add(db_jwt);
         _context.SaveChanges();
@@ -61,7 +64,7 @@ public class UserService : IUserService
         return response;
     }
 
-    public Guid? LogIn(UserLogin userLogin)
+    public string? LogIn(UserLogin userLogin)
     {
         var db_user = _context.Users.FirstOrDefault(u => u.Email == userLogin.Email);
         if (db_user == null)
@@ -72,14 +75,32 @@ public class UserService : IUserService
         {
             return null;
         }
-        return db_user.Id;
+
+        var jwtToken = _context.JwtTokens.FirstOrDefault(t => t.UserId == db_user.Id);
+        if (jwtToken != null)
+        {
+            return jwtToken.Token;
+        }
+
+        var newJwtToken = GenerateJwt(db_user);
+        JwtToken db_newJwtToken = new JwtToken{Token=newJwtToken, UserId=db_user.Id, ExpirationTime=DateTime.UtcNow.AddMinutes(30)};
+        _context.Add(db_newJwtToken);
+        _context.SaveChanges();
+
+        return newJwtToken;
     }
 
     public User? LogInWithJwt(string token)
     {
         var jwt = _context.JwtTokens.FirstOrDefault(jwtoken => jwtoken.Token == token);
-        if (jwt == null || DateTime.UtcNow > jwt.ExpirationTime)
+        if (jwt == null)
         {
+            return null;
+        }
+        if (DateTime.UtcNow > jwt.ExpirationTime)
+        {
+            _context.JwtTokens.Remove(jwt);
+            _context.SaveChanges();
             return null;
         }
         return _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
