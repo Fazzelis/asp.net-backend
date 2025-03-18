@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using restApi.AuthOptions;
+using restApi.Controllers;
 using restApi.db;
 using restApi.Services;
 using restApi.Services.Impl;
@@ -40,6 +41,7 @@ public class Program
         builder.Services.AddDbContext<ApiDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
         builder.Services.AddControllers();
         builder.Services.AddScoped<IUserService, UserService>();
+        builder.Services.AddScoped<INewsService, NewsService>();
 
         var app = builder.Build();
 

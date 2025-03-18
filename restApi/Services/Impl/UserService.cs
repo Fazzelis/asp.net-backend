@@ -59,7 +59,7 @@ public class UserService : IUserService
         _context.SaveChanges();
 
         Dictionary<string, string> response = new Dictionary<string, string>(){
-            {"id", jwtTokenStr}
+            {"token", jwtTokenStr}
         };
         return response;
     }
