@@ -35,7 +35,7 @@ public class NewsService : INewsService
 
         if (author.Role == "admin" || author.Role == "writter")
         {
-            News db_news = NewsMapper.toNews(newsDto, author.Name);
+            News db_news = NewsMapper.toNews(newsDto, author.Name, author.Id);
             _context.Add(db_news);
             _context.SaveChanges();
             return db_news.Id;

@@ -12,7 +12,7 @@ public static class UserMapper
             Name=userDto.Name,
             Email=userDto.Email,
             Password=userDto.Password,
-            Role="admin"
+            Role="user"
         };
     }
 

@@ -2,6 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
 using Microsoft.IdentityModel.Tokens;
+using Npgsql.TypeMapping;
 using restApi.AuthOptions;
 using restApi.db;
 using restApi.Dtos.User;
@@ -83,7 +84,7 @@ public class UserService : IUserService
         }
 
         var newJwtToken = GenerateJwt(db_user);
-        JwtToken db_newJwtToken = new JwtToken{Token=newJwtToken, UserId=db_user.Id, ExpirationTime=DateTime.UtcNow.AddMinutes(30)};
+        JwtToken db_newJwtToken = new JwtToken { Token = newJwtToken, UserId = db_user.Id, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
         _context.Add(db_newJwtToken);
         _context.SaveChanges();
 
@@ -104,5 +105,114 @@ public class UserService : IUserService
             return null;
         }
         return _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+    }
+
+    public bool giveUser(string token, string email)
+    {
+        var jwt = _context.JwtTokens.FirstOrDefault(t => t.Token == token);
+        if (jwt == null)
+        {
+            return false;
+        }
+
+        if (DateTime.UtcNow > jwt.ExpirationTime)
+        {
+            _context.JwtTokens.Remove(jwt);
+            _context.SaveChanges();
+            return false;
+        }
+
+        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+        if (admin == null)
+        {
+            return false;
+        }
+
+        if (admin.Role != "admin")
+        {
+            return false;
+        }
+
+        var user = _context.Users.FirstOrDefault(u => u.Email == email);
+        if (user == null)
+        {
+            return false;
+        }
+        user.Role = "user";
+        _context.Users.Update(user);
+        _context.SaveChanges();
+        return true;
+    }
+    public bool giveWritter(string token, string email)
+    {
+        var jwt = _context.JwtTokens.FirstOrDefault(t => t.Token == token);
+        if (jwt == null)
+        {
+            return false;
+        }
+
+        if (DateTime.UtcNow > jwt.ExpirationTime)
+        {
+            _context.JwtTokens.Remove(jwt);
+            _context.SaveChanges();
+            return false;
+        }
+
+        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+        if (admin == null)
+        {
+            return false;
+        }
+
+        if (admin.Role != "admin")
+        {
+            return false;
+        }
+
+        var user = _context.Users.FirstOrDefault(u => u.Email == email);
+        if (user == null)
+        {
+            return false;
+        }
+        user.Role = "writter";
+        _context.Users.Update(user);
+        _context.SaveChanges();
+        return true;
+    }
+    public bool giveAdmin(string token, string email)
+    {
+        var jwt = _context.JwtTokens.FirstOrDefault(t => t.Token == token);
+        if (jwt == null)
+        {
+            return false;
+        }
+
+        if (DateTime.UtcNow > jwt.ExpirationTime)
+        {
+            _context.JwtTokens.Remove(jwt);
+            _context.SaveChanges();
+            return false;
+        }
+
+        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+        if (admin == null)
+        {
+            return false;
+        }
+
+        if (admin.Role != "admin")
+        {
+            return false;
+        }
+
+        var user = _context.Users.FirstOrDefault(u => u.Email == email);
+        if (user == null)
+        {
+            return false;
+        }
+        user.Role = "admin";
+        _context.Users.Update(user);
+        _context.SaveChanges();
+        return true;
     }
 }

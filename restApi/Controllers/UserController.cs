@@ -50,4 +50,43 @@ public class UserController : ControllerBase
         }
         return Ok(UserMapper.ToUserInfoDto(user));
     }
+
+    [HttpPatch("give-user-role")]
+    public IActionResult giveUserRole([FromHeader] string token, [FromBody] string email)
+    {
+        if (_userService.giveUser(token, email))
+        {
+            return Ok("Role was add");
+        }
+        else
+        {
+            return Conflict("Role was not add");
+        }
+    }
+
+    [HttpPatch("give-writter-role")]
+    public IActionResult giveWritterRole([FromHeader] string token, [FromBody] string email)
+    {
+        if (_userService.giveWritter(token, email))
+        {
+            return Ok("Role was add");
+        }
+        else
+        {
+            return Conflict("Role was not add");
+        }
+    }
+
+    [HttpPatch("give-admin-role")]
+    public IActionResult giveAdminRole([FromHeader] string token, [FromBody] string email)
+    {
+        if (_userService.giveAdmin(token, email))
+        {
+            return Ok("Role was add");
+        }
+        else
+        {
+            return Conflict("Role was not add");
+        }
+    }
 }
