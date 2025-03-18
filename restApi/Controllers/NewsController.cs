@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using restApi.Dtos.News;
+using restApi.Mappers;
 
 namespace restApi.Controllers;
 
@@ -13,8 +14,9 @@ public class NewsController : ControllerBase
     {
         _newsService = newsService;
     }
+
     [HttpPost("create")]
-    public IActionResult postNews([FromBody] NewsDto newsDto, [FromHeader] string jwt)
+    public IActionResult postNews([FromBody] NewsPostDto newsDto, [FromHeader] string jwt)
     {
         var newsId = _newsService.createNews(newsDto, jwt);
         if (newsId == null)
@@ -25,5 +27,17 @@ public class NewsController : ControllerBase
         {
             return Ok(newsId);
         }
+    }
+
+    [HttpGet("news")]
+    public IActionResult getNews([FromQuery] Guid newsId)
+    {
+        var news = _newsService.getNewsById(newsId);
+        if (news == null)
+        {
+            return BadRequest("News not found");
+        }
+
+        return Ok(NewsMapper.toNewsGetDto(news));
     }
 }

@@ -12,11 +12,18 @@ public class NewsService : INewsService
     {
         _context = context;
     }
-    public Guid? createNews(NewsDto newsDto, string jwt)
+    public Guid? createNews(NewsPostDto newsDto, string jwt)
     {
         var jwtToken = _context.JwtTokens.FirstOrDefault(token => token.Token == jwt);
         if (jwtToken == null)
         {
+            return null;
+        }
+
+        if (DateTime.UtcNow > jwtToken.ExpirationTime)
+        {
+            _context.JwtTokens.Remove(jwtToken);
+            _context.SaveChanges();
             return null;
         }
 
@@ -37,6 +44,14 @@ public class NewsService : INewsService
         {
             return null;
         }
-
+    }
+    public News? getNewsById(Guid newsId)
+    {
+        var news = _context.News.FirstOrDefault(n => n.Id == newsId);
+        if (news == null)
+        {
+            return null;
+        }
+        return news;
     }
 }
