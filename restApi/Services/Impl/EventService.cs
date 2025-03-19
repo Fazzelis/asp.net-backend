@@ -1,5 +1,6 @@
 using restApi.db;
 using restApi.Dtos.Event;
+using restApi.Mappers;
 using restApi.Models;
 
 namespace restApi.Services.Impl;
@@ -11,7 +12,7 @@ public class EventService : IEventService
     {
         _context = context;
     }
-    public Event? createEvent(string jwt, EventDto eventDto)
+    public Event? createEvent(string jwt, EventCreateDto eventDto)
     {
         var jwtToken = _context.JwtTokens.FirstOrDefault(token => token.Token == jwt);
         if (jwtToken == null)
@@ -48,5 +49,14 @@ public class EventService : IEventService
         {
             return null;
         }
+    }
+    public EventGetDto? getEventById(Guid eventId)
+    {
+        var foundEvent = _context.Events.FirstOrDefault(e => e.Id == eventId);
+        if (foundEvent == null)
+        {
+            return  null;
+        }
+        return foundEvent.toEventGetDto();
     }
 }

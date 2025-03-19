@@ -14,7 +14,7 @@ public class EventController : ControllerBase
         _eventService = eventService;
     }
     [HttpPost("create")]
-    public IActionResult CreateEvent([FromHeader] string jwt, [FromBody] EventDto eventDto)
+    public IActionResult CreateEvent([FromHeader] string jwt, [FromBody] EventCreateDto eventDto)
     {
         var newEvent = _eventService.createEvent(jwt, eventDto);
         if (newEvent == null)
@@ -25,5 +25,15 @@ public class EventController : ControllerBase
         {
             return Ok(newEvent);
         }
+    }
+    [HttpGet]
+    public IActionResult GetEvent([FromQuery] Guid eventId)
+    {
+        var foundEvent = _eventService.getEventById(eventId);
+        if (foundEvent == null)
+        {
+            return Conflict("Event was not found");
+        }
+        return Ok(foundEvent);
     }
 }

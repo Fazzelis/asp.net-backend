@@ -1,6 +1,6 @@
 namespace restApi.Dtos.Event;
 
-public class EventDto
+public class EventCreateDto
 {
     public required string Title { get; set; }
     public required string Description { get; set; }

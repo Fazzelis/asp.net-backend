@@ -5,5 +5,6 @@ namespace restApi.Services;
 
 public interface IEventService
 {
-    public Event? createEvent(string jwt, EventDto eventDto);
+    public Event? createEvent(string jwt, EventCreateDto eventDto);
+    public EventGetDto? getEventById(Guid eventId);
 }
