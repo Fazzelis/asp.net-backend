@@ -78,17 +78,31 @@ public class UserService : IUserService
         }
 
         var jwtToken = _context.JwtTokens.FirstOrDefault(t => t.UserId == db_user.Id);
-        if (jwtToken != null)
+
+        if (jwtToken == null)
+        {
+            var newJwtToken = GenerateJwt(db_user);
+            JwtToken db_newJwtToken = new JwtToken { Token = newJwtToken, UserId = db_user.Id, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
+            _context.JwtTokens.Add(db_newJwtToken);
+            _context.SaveChanges();
+            return newJwtToken;
+        }
+        if (DateTime.UtcNow < jwtToken.ExpirationTime)
         {
             return jwtToken.Token;
         }
 
-        var newJwtToken = GenerateJwt(db_user);
-        JwtToken db_newJwtToken = new JwtToken { Token = newJwtToken, UserId = db_user.Id, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
-        _context.Add(db_newJwtToken);
+        _context.JwtTokens.Remove(jwtToken);
+        var newToken = GenerateJwt(db_user);
+        JwtToken db_newToken = new JwtToken
+        {
+            Token = newToken,
+            UserId = db_user.Id,
+            ExpirationTime = DateTime.UtcNow.AddMinutes(30)
+        };
+        _context.JwtTokens.Add(db_newToken);
         _context.SaveChanges();
-
-        return newJwtToken;
+        return newToken;
     }
 
     public User? LogInWithJwt(string token)
@@ -174,7 +188,7 @@ public class UserService : IUserService
         {
             return false;
         }
-        user.Role = "writter";
+        user.Role = "writer";
         _context.Users.Update(user);
         _context.SaveChanges();
         return true;

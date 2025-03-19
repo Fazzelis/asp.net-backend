@@ -5,7 +5,7 @@ namespace restApi.Mappers;
 
 public static class NewsMapper
 {
-    public static News toNews(NewsPostDto newsDto, string author, Guid authorId)
+    public static News toNews(this NewsPostDto newsDto, string author, Guid authorId)
     {
         return new News{
             Title=newsDto.Title,
@@ -15,7 +15,7 @@ public static class NewsMapper
             AuthorId=authorId
         };
     }
-    public static NewsGetDto toNewsGetDto(News news)
+    public static NewsGetDto toNewsGetDto(this News news)
     {
         return new NewsGetDto{
             Title=news.Title,

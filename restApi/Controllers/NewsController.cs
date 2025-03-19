@@ -38,6 +38,6 @@ public class NewsController : ControllerBase
             return BadRequest("News not found");
         }
 
-        return Ok(NewsMapper.toNewsGetDto(news));
+        return Ok(news.toNewsGetDto());
     }
 }

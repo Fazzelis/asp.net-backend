@@ -42,6 +42,7 @@ public class Program
         builder.Services.AddControllers();
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddScoped<INewsService, NewsService>();
+        builder.Services.AddScoped<IEventService, EventService>();
 
         var app = builder.Build();
 

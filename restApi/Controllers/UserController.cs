@@ -18,7 +18,7 @@ public class UserController : ControllerBase
     [HttpPost("create")]
     public IActionResult CreateUser([FromBody] UserDto userDto)
     {
-        var user = _userService.CreateUser(UserMapper.ToUserModel(userDto));
+        var user = _userService.CreateUser(userDto.ToUserModel());
         if (user == null)
         {
             return Conflict("Conflict");
@@ -41,20 +41,20 @@ public class UserController : ControllerBase
     }
 
     [HttpGet("login-with-jwt")]
-    public IActionResult LoginInWithJwt([FromHeader] string token)
+    public IActionResult LoginInWithJwt([FromHeader] string jwt)
     {
-        var user = _userService.LogInWithJwt(token);
+        var user = _userService.LogInWithJwt(jwt);
         if (user == null)
         {
             return BadRequest("Jwt is not correct or token time out");
         }
-        return Ok(UserMapper.ToUserInfoDto(user));
+        return Ok(user.ToUserInfoDto());
     }
 
     [HttpPatch("give-user-role")]
-    public IActionResult giveUserRole([FromHeader] string token, [FromBody] string email)
+    public IActionResult giveUserRole([FromHeader] string jwt, [FromBody] UserEmailDto userEmailDto)
     {
-        if (_userService.giveUser(token, email))
+        if (_userService.giveUser(jwt, userEmailDto.Email))
         {
             return Ok("Role was add");
         }
@@ -64,10 +64,10 @@ public class UserController : ControllerBase
         }
     }
 
-    [HttpPatch("give-writter-role")]
-    public IActionResult giveWritterRole([FromHeader] string token, [FromBody] string email)
+    [HttpPatch("give-writer-role")]
+    public IActionResult giveWritterRole([FromHeader] string jwt, [FromBody] UserEmailDto userEmailDto)
     {
-        if (_userService.giveWritter(token, email))
+        if (_userService.giveWritter(jwt, userEmailDto.Email))
         {
             return Ok("Role was add");
         }
@@ -78,9 +78,9 @@ public class UserController : ControllerBase
     }
 
     [HttpPatch("give-admin-role")]
-    public IActionResult giveAdminRole([FromHeader] string token, [FromBody] string email)
+    public IActionResult giveAdminRole([FromHeader] string jwt, [FromBody] UserEmailDto userEmailDto)
     {
-        if (_userService.giveAdmin(token, email))
+        if (_userService.giveAdmin(jwt, userEmailDto.Email))
         {
             return Ok("Role was add");
         }
