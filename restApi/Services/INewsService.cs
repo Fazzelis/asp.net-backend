@@ -1,5 +1,5 @@
 using restApi.Dtos.News;
-using restApi.Models;
+using restApi.Entity;
 
 namespace restApi.Controllers;
 

@@ -1,6 +1,6 @@
 using Npgsql.Replication;
 using restApi.Dtos.User;
-using restApi.Models;
+using restApi.Entity;
 
 namespace restApi.Mappers;
 

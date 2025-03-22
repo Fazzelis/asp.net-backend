@@ -1,7 +1,7 @@
 using restApi.db;
 using restApi.Dtos.Event;
 using restApi.Mappers;
-using restApi.Models;
+using restApi.Entity;
 
 namespace restApi.Services.Impl;
 

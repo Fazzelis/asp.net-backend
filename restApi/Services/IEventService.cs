@@ -1,5 +1,5 @@
 using restApi.Dtos.Event;
-using restApi.Models;
+using restApi.Entity;
 
 namespace restApi.Services;
 

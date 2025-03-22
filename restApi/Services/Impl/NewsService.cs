@@ -2,7 +2,7 @@ using restApi.Controllers;
 using restApi.db;
 using restApi.Dtos.News;
 using restApi.Mappers;
-using restApi.Models;
+using restApi.Entity;
 
 namespace restApi.Services.Impl;
 public class NewsService : INewsService

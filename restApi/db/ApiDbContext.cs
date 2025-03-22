@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using restApi.Models;
+using restApi.Entity;
 
 namespace restApi.db;
 

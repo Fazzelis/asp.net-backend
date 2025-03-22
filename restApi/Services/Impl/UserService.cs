@@ -6,7 +6,7 @@ using Npgsql.TypeMapping;
 using restApi.AuthOptions;
 using restApi.db;
 using restApi.Dtos.User;
-using restApi.Models;
+using restApi.Entity;
 
 namespace restApi.Services.Impl;
 
@@ -51,6 +51,7 @@ public class UserService : IUserService
         {
             return null;
         }
+        newUser.Password = BCrypt.Net.BCrypt.HashPassword(newUser.Password);
         _context.Add(newUser);
         _context.SaveChanges();
 
@@ -72,7 +73,7 @@ public class UserService : IUserService
         {
             return null;
         }
-        if (db_user.Password != userLogin.Password)
+        if (!BCrypt.Net.BCrypt.Verify(userLogin.Password, db_user.Password))
         {
             return null;
         }

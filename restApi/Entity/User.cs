@@ -1,4 +1,4 @@
-namespace restApi.Models;
+namespace restApi.Entity;
 
 public class User
 {

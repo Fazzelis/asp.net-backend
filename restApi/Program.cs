@@ -15,7 +15,6 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddAuthentication();
         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
@@ -39,7 +38,6 @@ public class Program
         builder.Services.AddSwaggerGen();
 
         builder.Services.AddDbContext<ApiDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
-        builder.Services.AddControllers();
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddScoped<INewsService, NewsService>();
         builder.Services.AddScoped<IEventService, EventService>();
