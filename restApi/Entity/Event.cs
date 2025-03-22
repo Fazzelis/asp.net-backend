@@ -8,6 +8,5 @@ public class Event
     public required DateTime StartTime { get; set; }
     public required DateTime EndTime { get; set; }
     public required string PlaceOfEvent { get; set; }
-    public required string CreatorName { get; set; }
-    public required Guid CreatorId { get; set; }
+    public required User Author { get; set; }
 }

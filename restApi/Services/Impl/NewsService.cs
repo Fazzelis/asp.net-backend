@@ -27,7 +27,7 @@ public class NewsService : INewsService
             return null;
         }
 
-        var author = _context.Users.FirstOrDefault(user => user.Id == jwtToken.UserId);
+        var author = _context.Users.FirstOrDefault(user => user.Id == jwtToken.User.Id);
         if (author == null)
         {
             return null;
@@ -35,7 +35,7 @@ public class NewsService : INewsService
 
         if (author.Role == "admin" || author.Role == "writer")
         {
-            News db_news = newsDto.toNews(author.Name, author.Id);
+            News db_news = newsDto.toNews(author);
             _context.Add(db_news);
             _context.SaveChanges();
             return db_news.Id;

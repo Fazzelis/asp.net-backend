@@ -25,22 +25,14 @@ public class EventService : IEventService
             _context.SaveChanges();
             return null;
         }
-        var user = _context.Users.FirstOrDefault(u => u.Id == jwtToken.UserId);
+        var user = _context.Users.FirstOrDefault(u => u.Id == jwtToken.User.Id);
         if (user == null)
         {
             return null;
         }
         if (user.Role == "admin" || user.Role == "writer")
         {
-            Event db_event = new Event{
-                Title=eventDto.Title,
-                Description=eventDto.Description,
-                StartTime=eventDto.StartTime,
-                EndTime=eventDto.EndTime,
-                PlaceOfEvent=eventDto.PlaceOfEvent,
-                CreatorName=user.Name,
-                CreatorId=user.Id
-            };
+            Event db_event = eventDto.toEvent(user);
             _context.Events.Add(db_event);
             _context.SaveChanges();
             return db_event;
@@ -55,7 +47,7 @@ public class EventService : IEventService
         var foundEvent = _context.Events.FirstOrDefault(e => e.Id == eventId);
         if (foundEvent == null)
         {
-            return  null;
+            return null;
         }
         return foundEvent.toEventGetDto();
     }

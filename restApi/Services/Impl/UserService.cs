@@ -56,7 +56,7 @@ public class UserService : IUserService
         _context.SaveChanges();
 
         string jwtTokenStr = GenerateJwt(newUser);
-        JwtToken db_jwt = new JwtToken { Token = jwtTokenStr, UserId = newUser.Id, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
+        JwtToken db_jwt = new JwtToken { Token = jwtTokenStr, User = newUser, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
         _context.Add(db_jwt);
         _context.SaveChanges();
 
@@ -78,12 +78,12 @@ public class UserService : IUserService
             return null;
         }
 
-        var jwtToken = _context.JwtTokens.FirstOrDefault(t => t.UserId == db_user.Id);
+        var jwtToken = _context.JwtTokens.FirstOrDefault(t => t.User.Id == db_user.Id);
 
         if (jwtToken == null)
         {
             var newJwtToken = GenerateJwt(db_user);
-            JwtToken db_newJwtToken = new JwtToken { Token = newJwtToken, UserId = db_user.Id, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
+            JwtToken db_newJwtToken = new JwtToken { Token = newJwtToken, User = db_user, ExpirationTime = DateTime.UtcNow.AddMinutes(30) };
             _context.JwtTokens.Add(db_newJwtToken);
             _context.SaveChanges();
             return newJwtToken;
@@ -98,7 +98,7 @@ public class UserService : IUserService
         JwtToken db_newToken = new JwtToken
         {
             Token = newToken,
-            UserId = db_user.Id,
+            User = db_user,
             ExpirationTime = DateTime.UtcNow.AddMinutes(30)
         };
         _context.JwtTokens.Add(db_newToken);
@@ -119,7 +119,7 @@ public class UserService : IUserService
             _context.SaveChanges();
             return null;
         }
-        return _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+        return _context.Users.FirstOrDefault(u => u.Id == jwt.User.Id);
     }
 
     public bool giveUser(string token, string email)
@@ -137,7 +137,7 @@ public class UserService : IUserService
             return false;
         }
 
-        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.User.Id);
         if (admin == null)
         {
             return false;
@@ -173,7 +173,7 @@ public class UserService : IUserService
             return false;
         }
 
-        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.User.Id);
         if (admin == null)
         {
             return false;
@@ -209,7 +209,7 @@ public class UserService : IUserService
             return false;
         }
 
-        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.UserId);
+        var admin = _context.Users.FirstOrDefault(u => u.Id == jwt.User.Id);
         if (admin == null)
         {
             return false;

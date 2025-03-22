@@ -5,14 +5,13 @@ namespace restApi.Mappers;
 
 public static class NewsMapper
 {
-    public static News toNews(this NewsPostDto newsDto, string author, Guid authorId)
+    public static News toNews(this NewsPostDto newsDto, User user)
     {
         return new News{
             Title=newsDto.Title,
             Description=newsDto.Description,
-            Author=author,
             PublicTime=DateTime.UtcNow,
-            AuthorId=authorId
+            Author=user
         };
     }
     public static NewsGetDto toNewsGetDto(this News news)
@@ -20,7 +19,7 @@ public static class NewsMapper
         return new NewsGetDto{
             Title=news.Title,
             Description=news.Description,
-            Author=news.Author
+            Author=news.Author.Name
         };
     }
 }
