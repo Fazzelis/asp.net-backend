@@ -41,7 +41,7 @@ public class UserService : IUserService
         string emailPatter = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
         Regex regex = new Regex(emailPatter);
 
-        if (!regex.IsMatch(newUser.Email))
+        if (newUser.Password.Length < 6 || !regex.IsMatch(newUser.Email))
         {
             return null;
         }
